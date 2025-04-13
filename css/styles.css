@@ -1,0 +1,157 @@
+/*nav ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+nav ul li {
+  float: left;
+  margin: 0px 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  background-color:rgb(167, 209, 243);
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+  color:black;
+  border-radius: 4px;
+  display: block;
+}
+*/
+
+#navbar-container {
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+#main-navbar ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  display: inline-block;
+}
+
+#main-navbar ul li {
+  float: left;
+}
+
+#main-navbar {
+  background-color:rgb(167, 209, 243);
+}
+
+#main-navbar ul li a {
+  display: block;
+  padding: 10px 20px;
+  color:rgb(255, 255, 255);
+  background-color:rgb(167, 209, 243);
+  text-decoration: none;
+  font-size: 25px;
+  font-family: "Lato", sans-serif;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#lets-get-started h1 {
+  padding-top: 62px;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  }
+
+#HowTo {
+  border-radius: 10% / 50%;
+  background-color: #d1ddff;
+  border-radius: 50% 20% / 10% 40%;
+  padding: 5px;
+  border: 15px solid rgb(106, 191, 252);
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+section h1 {
+  font-size: 2.5em;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 100px;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+}
+
+#flex {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+#lets-get-started {
+  font-weight: 600;
+  padding-top: 50px;
+  padding-bottom: 25px;
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  font-family: "Lato", sans-serif;
+}
+
+#steelpan {
+  font-weight: 900;
+  font-size: 1.5em;
+}
+
+#smoothie {
+  font-weight: 900;
+  font-size: 1.5em;
+}
+
+#empathis{
+  font-weight: 900;
+  font-size: 1.5em;
+}
+
+
+#flex img {
+    flex-basis: 50%; 
+    padding: 50px 50px;
+}
+
+section p {
+  padding: 10px;
+}
+
+#ingredient-list {
+  padding-left: 10px;
+}
+
+#nutrition-list {
+  padding-left: 10px;
+}
+
+main{
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  background-color:rgb(127, 185, 231);
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+
