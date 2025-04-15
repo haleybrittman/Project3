@@ -154,4 +154,18 @@ body {
 }
 
 
+#wrapper {
+  width: 850px;
+  height: 600px;
+  background-color:rgb(200, 165, 233);
+  margin: 0 auto;
+}
+
+#canvas {
+  width: 700px;
+  height: 500px;
+  background-color:#ccc;
+  margin: 30px auto;
+}
+
 
