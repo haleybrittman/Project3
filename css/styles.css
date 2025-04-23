@@ -57,13 +57,29 @@ nav ul li a {
   overflow: hidden;
 }
 
+.HowToContainer {
+  padding-top: 50px;
+  width: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.container1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
 #lets-get-started h1 {
   padding-top: 62px;
   text-align: center;
   font-family: "Lato", sans-serif;
   font-weight: 600;
   font-style: normal;
-  }
+}
 
 #HowTo {
   border-radius: 10% / 50%;
@@ -88,7 +104,19 @@ p {
   padding: 100px;
 }
 
+.dogs {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 img {
+  display: block;
+  margin: 20px auto;
+  max-width: 80%;
+  height: auto;
+  border-radius: 8px;
+  border: 5px solid rgba(0, 0, 0, 0.5);
   width: 150px;
   height: 150px;
 }
