@@ -60,8 +60,6 @@
 
 
 #lets-get-started h1 {
-  padding-top: 62px;
-  text-align: center;
   font-family: "Lato", sans-serif;
   font-weight: 600;
   font-style: normal;
@@ -99,9 +97,6 @@ img {
   max-width: 80%;
   height: auto;
   border-radius: 8px;
-  border: 5px solid rgba(0, 0, 0, 0.5);
-  width: 150px;
-  height: 150px;
 }
 
 #flex {
@@ -161,11 +156,12 @@ body {
   font-style: normal;
 }
 
-
+/* Start of media queries */
 @media screen and (min-width: 900px) {
   #main-navbar ul li a:hover {
     background-color: rgb(179, 247, 204);
   }
+
   body {
     background-color:rgb(127, 185, 231);
     font-weight: 600;
@@ -180,8 +176,18 @@ body {
 
 
 @media screen and (min-width: 600px) {
+ img {
+  border: 5px solid rgba(0, 0, 0, 0.5);
+  width: 150px;
+  height: 150px;
+ }
 
+ #lets-get-started h1 {
+  padding-top: 62px;
+  text-align: center;
+ }
 }
+/* End of media queries */
 
 
 /* maps api */
