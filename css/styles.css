@@ -68,9 +68,6 @@
 }
 
 #HowTo {
-  border-radius: 10% / 50%;
-  background-color: #d1ddff;
-  border-radius: 50% 20% / 10% 40%;
   padding: 5px;
   border: 15px solid rgb(106, 191, 252);
   text-align: center;
@@ -161,31 +158,30 @@ main{
 }
 
 body {
-  background-color:rgb(127, 185, 231);
-  font-weight: 600;
   font-style: normal;
 }
 
 
-
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 900px) {
+  #main-navbar ul li a:hover {
+    background-color: rgb(179, 247, 204);
+  }
   body {
-    background-color: blue;
+    background-color:rgb(127, 185, 231);
+    font-weight: 600;
+  }
+
+  #HowTo{
+  border-radius: 10% / 50%;
+  background-color: #d1ddff;
+  border-radius: 50% 20% / 10% 40%;
   }
 }
 
 
 @media screen and (min-width: 600px) {
-  body {
-    background-color: blue;
-  }
+
 }
-
-
-
-
-
-
 
 
 /* maps api */
