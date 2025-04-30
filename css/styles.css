@@ -166,6 +166,28 @@ body {
   font-style: normal;
 }
 
+
+
+@media screen and (min-width: 992px) {
+  body {
+    background-color: blue;
+  }
+}
+
+
+@media screen and (min-width: 600px) {
+  body {
+    background-color: blue;
+  }
+}
+
+
+
+
+
+
+
+
 /* maps api */
 #wrapper {
   width: 850px;
